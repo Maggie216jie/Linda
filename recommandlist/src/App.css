@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+  color:white;
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color: black;
+  margin:0;
+  width: 100vw;
+  position: relative;
+}
+.wholecontainer{
+  background-color: black;
+  min-height: 100vh;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.logoimg{
+  height:52px;
+  padding-left:50px;
+ 
+}
+.topbar{
+
+  height: 46px;
+  width:95%;
+
+}
+
+.titlepart{
+
+  height: 80px;
+  width: 100vw;
+  color: white;
+  padding-left:60px;
+  padding-top: 12px;
+  font-size: 26px;
+  padding-top: 30px;
+}
+
+.listpart{
+  padding-left:60px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.listitem{
+  margin-right:5px;
+  text-align: center;
+}
+
+.displayimg{
+  cursor: pointer;
+  padding-bottom: 8px;
+}
+
+.gallerycontainer{
+  padding-bottom: 50px;;
+}
+
+.itemtitle{
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.itembutton{
+  visibility: hidden;
+}
+
+
+.itembutton.add{
+
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 3px 15px;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+.itembutton.add:hover{
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+
+}
+
+.itembutton.remove{
+  border: 1px solid rgb(231, 44, 52);
+  color :rgb(231, 44, 52);
+  background-color: black;
+  border-radius: 5px;
+  padding: 3px 15px;
+  cursor: pointer;
+  outline: none;
+
+}
+
+.itembutton.remove:hover{
+  border: 1px solid rgb(231, 44, 52);
+  background-color: rgb(231, 44, 52);
+  color: white;
+
+}
+
+.listitem:hover .itembutton{
+  visibility: visible;
+}
+
+.mylisttiltespan{
+  padding-right: 30px;
+  font-size: 18px;
+}

@@ -1,0 +1,3 @@
+export const FETCH_DATA = 'FETCH_DATA';
+export const ADD_TO_MYLIST = 'ADDTO_MYLIST';
+export const REMOVE_FROM_MYLIST = 'REMOVE_FROM_MYLIST';
